@@ -8,6 +8,24 @@
 # 6-2 静态资源服务器  
 ## supervisor 1_http.js,可以监听变化  
 
+## 安装  
+```
+npm i -g anydoor
+```
+
+## 使用方法  
+```
+anydoor # 把当前文件夹作为静态资源服务跟目录
+anydoor -p 8080 # 设置端口号 8080
+anydoor -h localhost # 设置host为localhost
+anydoor -d /usr # 设置根目录/usr
+```
+
+## 安装  
+```
+npm i -g anydoor
+```
+
 
 
 

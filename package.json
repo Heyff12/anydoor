@@ -1,8 +1,11 @@
 {
   "name": "node-study",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "tiny nodejs web srver",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,7 +17,7 @@
     "chalk": "^2.3.0",
     "eslint": "^4.17.0",
     "eslint-plugin-html": "^4.0.2",
-    "pre-commit": "^1.2.2"
+    "yargs": "^11.0.0"
   },
   "dependencies": {
     "handlebars": "^4.0.11"
